@@ -1,0 +1,17 @@
+.navbar {
+    display: flex;
+    background-color: #1e3a8a; /* тёмно-синий */
+    padding: 1rem;
+    gap: 1.5rem;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.nav-link.active {
+    border-bottom: 2px solid #facc15; /* жёлтая линия */
+    font-weight: bold;
+}
