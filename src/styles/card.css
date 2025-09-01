@@ -12,7 +12,6 @@
     box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
 }
 
-/* Фото */
 .leader-photo {
     position: relative;
     height: 180px;
@@ -28,7 +27,6 @@
     background: linear-gradient(to bottom, transparent, white);
 }
 
-/* Текст */
 .leader-info {
     padding: 1rem;
     text-align: center;
@@ -54,16 +52,98 @@
     text-decoration: underline;
 }
 
+.modal-content {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.modal-photo {
+    width: 250px;
+    height: 250px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.modal-text {
+    text-align: left;
+    flex: 1;
+}
+
+.modal-text h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.modal-text p {
+    margin: 5px 0;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    width: 600px;
+    max-width: 90%;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    transform: scale(1);
+    opacity: 1;
+}
+
+.modal-overlay .modal {
+    animation: fadeInScale 0.3s ease forwards;
+}
+
+@keyframes fadeInScale {
+    0% {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+
+.modal-text button {
+    margin-top: 15px;
+    padding: 8px 16px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.modal-text button:hover {
+    background: #1d4ed8;
+}
+
 
 .leaders-row {
     display: flex;
-    justify-content: center; /* выравнивание по центру */
-    gap: 20px; /* расстояние между карточками */
+    justify-content: center;
+    gap: 20px;
     margin: 20px 0;
 }
 
 .leaders-separator {
     margin: 30px 0;
     border: none;
-    border-top: 2px dashed #d1d5db; /* серая пунктирная линия */
+    border-top: 2px dashed #d1d5db;
 }

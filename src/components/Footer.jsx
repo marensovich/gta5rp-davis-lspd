@@ -1,0 +1,12 @@
+import "../styles/footer.css";
+
+export default function Footer() {
+    return (
+        /*<div className="footer-bar">
+            Создано игроком <b>Bushido Elusive</b>. Лицензия<a href="https://github.com/marensovich/gta5rp-davis-lspd/blob/master/LICENSE" target="_blank" rel="noopener noreferrer">MIT</a>.
+        </div>*/
+        <div className="footer-bar">
+            Создано игроком <b>Bushido Elusive</b>.
+        </div>
+    );
+}

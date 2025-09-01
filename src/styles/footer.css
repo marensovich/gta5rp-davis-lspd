@@ -1,0 +1,32 @@
+/* Footer */
+.footer-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #111827;
+    color: #f9fafb;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 0.9rem;
+    z-index: 999;
+    box-shadow: 0 -2px 8px rgba(0,0,0,0.2);
+    transform: translateY(100%);
+    opacity: 0;
+    animation: slideUpFooter 0.5s forwards ease-out;
+}
+
+.footer-bar a {
+    color: #2563eb;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.footer-bar a:hover {
+    text-decoration: underline;
+}
+
+@keyframes slideUpFooter {
+    0% { transform: translateY(100%); opacity: 0; }
+    100% { transform: translateY(0); opacity: 1; }
+}
