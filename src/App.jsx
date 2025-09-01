@@ -1,8 +1,9 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import "./App.css";
+
 import Navbar from "./components/Navbar";
 import LspdGuide from "./pages/LspdGuide";
 import Employment from "./pages/Employment.jsx";
-import Dismissal from "./pages/Dismissal.jsx";
 import Docs from "./pages/Docs.jsx";
 import Events from "./pages/Events.jsx";
 import Footer from "./components/Footer.jsx";
@@ -10,12 +11,13 @@ import Footer from "./components/Footer.jsx";
 export default function App() {
     return (
         <Router>
+            <div className="body-background" />
+
             <Navbar />
-            <div style={{ padding: "20px" }}>
+            <div style={{ padding: "20px", position: "relative", zIndex: 1 }}>
                 <Routes>
                     <Route path="/" element={<LspdGuide />} />
                     <Route path="/employment" element={<Employment />} />
-                    <Route path="/dismissal" element={<Dismissal />} />
                     <Route path="/docs" element={<Docs />} />
                     <Route path="/events" element={<Events />} />
                 </Routes>

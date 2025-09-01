@@ -8,13 +8,10 @@ export default function Navbar() {
                 Руководство LSPD
             </NavLink>
             <NavLink to="/employment" className="nav-link">
-                Заявление на трудоустройство
-            </NavLink>
-            <NavLink to="/dismissal" className="nav-link">
-                Заявление на увольнение
+                Трудоустройство
             </NavLink>
             <NavLink to="/docs" className="nav-link">
-                Акты Los Santos Police Department
+                Акты LSPD
             </NavLink>
             <NavLink to="/events" className="nav-link">
                 Мероприятия
