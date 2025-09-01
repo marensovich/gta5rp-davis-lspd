@@ -1,14 +1,21 @@
 import "../styles/card.css";
 
-export default function PlayerCard({ name, position, email, photo }) {
+export default function LeaderCard({ name, position, email, photo }) {
     return (
-        <div className="card">
-            <img src={photo} alt={name} className="card-photo" />
-            <h2 className="card-name">{name}</h2>
-            <p className="card-position">{position}</p>
-            <a href={`mailto:${email}`} className="card-email">
-                {email}
-            </a>
+        <div className="leader-card">
+            <div
+                className="leader-photo"
+                style={{ backgroundImage: `url(${photo})` }}
+            >
+                <div className="leader-gradient" />
+            </div>
+            <div className="leader-info">
+                <h2 className="leader-name">{name}</h2>
+                <p className="leader-position">{position}</p>
+                <a href={`mailto:${email}`} className="leader-email">
+                    {email}
+                </a>
+            </div>
         </div>
     );
 }
