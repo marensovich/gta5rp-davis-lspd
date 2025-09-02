@@ -10,6 +10,9 @@ export default function Navbar() {
             <NavLink to="/employment" className="nav-link">
                 Трудоустройство
             </NavLink>
+            <NavLink to="/recovery" className="nav-link">
+                Восстановление
+            </NavLink>
             <NavLink to="/docs" className="nav-link">
                 Акты LSPD
             </NavLink>

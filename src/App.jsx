@@ -8,6 +8,7 @@ import Docs from "./pages/Docs.jsx";
 import Events from "./pages/Events.jsx";
 import Footer from "./components/Footer.jsx";
 import Header from "./components/Header.jsx";
+import Recovery from "./pages/Recovery.jsx";
 
 export default function App() {
     return (
@@ -22,6 +23,7 @@ export default function App() {
                     <Route path="/employment" element={<Employment />} />
                     <Route path="/docs" element={<Docs />} />
                     <Route path="/events" element={<Events />} />
+                    <Route path="/recovery" element={<Recovery />} />
                 </Routes>
 
                 <Footer />
