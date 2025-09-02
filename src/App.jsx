@@ -7,12 +7,14 @@ import Employment from "./pages/Employment.jsx";
 import Docs from "./pages/Docs.jsx";
 import Events from "./pages/Events.jsx";
 import Footer from "./components/Footer.jsx";
+import Header from "./components/Header.jsx";
 
 export default function App() {
     return (
         <Router>
             <div className="body-background" />
 
+            <Header />
             <Navbar />
             <div style={{ padding: "20px", position: "relative", zIndex: 1 }}>
                 <Routes>

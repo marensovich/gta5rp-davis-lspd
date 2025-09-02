@@ -1,10 +1,9 @@
-/* Footer */
 .footer-bar {
     position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
-    background: #111827;
+    background: #ff7b2e;
     color: #f9fafb;
     text-align: center;
     padding: 10px 20px;
@@ -17,7 +16,7 @@
 }
 
 .footer-bar a {
-    color: #2563eb;
+    color: #ffb726;
     text-decoration: none;
     margin-left: 5px;
 }

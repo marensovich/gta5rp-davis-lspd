@@ -5,6 +5,7 @@ import ivanov from "../img/bushido_elusive.png";
 import petrov from "../img/1.jpg";
 import smirnov from "../img/1.jpg";
 import sidorov from "../img/1.jpg";
+import separatorImg from "../img/gta5rp_line.png";
 
 export default function LspdGuide() {
     const [selectedLeader, setSelectedLeader] = useState(null);
@@ -288,7 +289,7 @@ export default function LspdGuide() {
                             </div>
                         ))}
                         {idx < sortedLevels.length - 1 && (
-                            <hr className="leaders-separator" />
+                            <img src={separatorImg} alt="separator" className="leaders-separator-img" />
                         )}
                     </div>
                 );

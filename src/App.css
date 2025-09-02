@@ -23,6 +23,13 @@ body {
     transition: background 1s ease;
 }
 
+.leaders-separator-img {
+    display: block;
+    margin: 30px auto;
+    max-width: 100%;
+    height: auto;
+}
+
 
 body.loaded {
     animation: fadeInBackground 1s ease forwards;
