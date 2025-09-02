@@ -273,6 +273,7 @@ export default function LspdGuide() {
 
     return (
         <div>
+            <p className="title">Руководство LSPD</p>
             {sortedLevels.map((level, idx) => {
                 const chunks = chunkArray(grouped[level], 7);
                 return (

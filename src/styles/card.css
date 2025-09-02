@@ -119,6 +119,12 @@
     }
 }
 
+.title {
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+}
 
 .modal-text button {
     margin-top: 15px;
