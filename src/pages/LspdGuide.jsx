@@ -19,9 +19,12 @@ export default function LspdGuide() {
             quote: "Справедливость превыше всего",
             age: 45,
             yearsInService: 20,
+            department: "Офис Шефа",
             photo: ivanov,
             level: 0,
         },
+
+
         {
             name: "Kimi Acapello",
             position: "Заместитель шефа LSPD",
@@ -30,6 +33,7 @@ export default function LspdGuide() {
             quote: "Дисциплина — ключ к порядку",
             age: 40,
             yearsInService: 15,
+            department: "Офис Шефа",
             photo: petrov,
             level: 1,
         },
@@ -41,6 +45,7 @@ export default function LspdGuide() {
             quote: "Каждое преступление оставляет след",
             age: 38,
             yearsInService: 12,
+            department: "Офис Шефа",
             photo: smirnov,
             level: 1,
         },
@@ -52,9 +57,12 @@ export default function LspdGuide() {
             quote: "Патруль — лицо полиции",
             age: 35,
             yearsInService: 10,
+            department: "Офис Шефа",
             photo: sidorov,
             level: 1,
         },
+
+
         {
             name: "Mauricio Aesthetic",
             position: "Начальник отдела DB",
@@ -63,96 +71,9 @@ export default function LspdGuide() {
             quote: "Патруль — лицо полиции",
             age: 35,
             yearsInService: 10,
+            department: "Отдел DB",
             photo: sidorov,
-            level: 2,
-        },
-        {
-            name: "Harry DeMonte",
-            position: "Начальник отдела PAI",
-            email: "sidorov@lspd.gov",
-            phone: "+1 (555) 444-5566",
-            quote: "Патруль — лицо полиции",
-            age: 35,
-            yearsInService: 10,
-            photo: sidorov,
-            level: 2,
-        },
-        {
-            name: "Nick Rice",
-            position: "Начальник отдела IAD",
-            email: "sidorov@lspd.gov",
-            phone: "+1 (555) 444-5566",
-            quote: "Патруль — лицо полиции",
-            age: 35,
-            yearsInService: 10,
-            photo: sidorov,
-            level: 2,
-        },
-        {
-            name: "Amir Quinteired",
-            position: "Начальник отдела SWAT",
-            email: "sidorov@lspd.gov",
-            phone: "+1 (555) 444-5566",
-            quote: "Патруль — лицо полиции",
-            age: 35,
-            yearsInService: 10,
-            photo: sidorov,
-            level: 2,
-        },
-        {
-            name: "Hamster Hells",
-            position: "Начальник отдела CPD",
-            email: "sidorov@lspd.gov",
-            phone: "+1 (555) 444-5566",
-            quote: "Патруль — лицо полиции",
-            age: 35,
-            yearsInService: 10,
-            photo: sidorov,
-            level: 2,
-        },
-        {
-            name: "Den Iska",
-            position: "Заместитель начальника отдела SWAT",
-            email: "sidorov@lspd.gov",
-            phone: "+1 (555) 444-5566",
-            quote: "Патруль — лицо полиции",
-            age: 35,
-            yearsInService: 10,
-            photo: sidorov,
-            level: 3,
-        },
-        {
-            name: "Kayo Psychoo",
-            position: "Заместитель начальника отдела PAI",
-            email: "sidorov@lspd.gov",
-            phone: "+1 (555) 444-5566",
-            quote: "Патруль — лицо полиции",
-            age: 35,
-            yearsInService: 10,
-            photo: sidorov,
-            level: 3,
-        },
-        {
-            name: "Polyana DeLuvre",
-            position: "Заместитель начальника отдела PAI",
-            email: "sidorov@lspd.gov",
-            phone: "+1 (555) 444-5566",
-            quote: "Патруль — лицо полиции",
-            age: 35,
-            yearsInService: 10,
-            photo: sidorov,
-            level: 3,
-        },
-        {
-            name: "Quiorra Feez",
-            position: "Заместитель начальника отдела CPD",
-            email: "sidorov@lspd.gov",
-            phone: "+1 (555) 444-5566",
-            quote: "Патруль — лицо полиции",
-            age: 35,
-            yearsInService: 10,
-            photo: sidorov,
-            level: 3,
+            level: 6,
         },
         {
             name: "Mamed Sacrifice",
@@ -162,17 +83,145 @@ export default function LspdGuide() {
             quote: "Патруль — лицо полиции",
             age: 35,
             yearsInService: 10,
+            department: "Отдел DB",
             photo: sidorov,
-            level: 3,
+            level: 6,
         },
         {
-            name: "Trofim Alonso",
-            position: "Заместитель начальника отдела CPD",
+            name: "Revise McLovinez",
+            position: "Заместитель начальника отдела DB",
             email: "sidorov@lspd.gov",
             phone: "+1 (555) 444-5566",
             quote: "Патруль — лицо полиции",
             age: 35,
             yearsInService: 10,
+            department: "Отдел DB",
+            photo: sidorov,
+            level: 6,
+        },
+
+
+        {
+            name: "Harry DeMonte",
+            position: "Начальник отдела PAI",
+            email: "sidorov@lspd.gov",
+            phone: "+1 (555) 444-5566",
+            quote: "Патруль — лицо полиции",
+            age: 35,
+            yearsInService: 10,
+            department: "Отдел PAI",
+            photo: sidorov,
+            level: 2,
+        },
+        {
+            name: "Kayo Psychoo",
+            position: "Заместитель начальника отдела PAI",
+            email: "sidorov@lspd.gov",
+            phone: "+1 (555) 444-5566",
+            quote: "Патруль — лицо полиции",
+            age: 35,
+            yearsInService: 10,
+            department: "Отдел PAI",
+            photo: sidorov,
+            level: 2,
+        },
+        {
+            name: "Polyana DeLuvre",
+            position: "Заместитель начальника отдела PAI",
+            email: "sidorov@lspd.gov",
+            phone: "+1 (555) 444-5566",
+            quote: "Патруль — лицо полиции",
+            age: 35,
+            yearsInService: 10,
+            department: "Отдел PAI",
+            photo: sidorov,
+            level: 2,
+        },
+        {
+            name: "Eric Hametov",
+            position: "Заместитель начальника отдела PAI",
+            email: "sidorov@lspd.gov",
+            phone: "+1 (555) 444-5566",
+            quote: "Патруль — лицо полиции",
+            age: 35,
+            yearsInService: 10,
+            department: "Отдел PAI",
+            photo: sidorov,
+            level: 2,
+        },
+        {
+            name: "Padre Arasaka",
+            position: "Заместитель начальника отдела PAI",
+            email: "sidorov@lspd.gov",
+            phone: "+1 (555) 444-5566",
+            quote: "Патруль — лицо полиции",
+            age: 35,
+            yearsInService: 10,
+            department: "Отдел PAI",
+            photo: sidorov,
+            level: 2,
+        },
+
+
+        {
+            name: "Nick Rice",
+            position: "Начальник отдела IAD",
+            email: "sidorov@lspd.gov",
+            phone: "+1 (555) 444-5566",
+            quote: "Патруль — лицо полиции",
+            age: 35,
+            yearsInService: 10,
+            department: "Отдел IAD",
+            photo: sidorov,
+            level: 4,
+        },
+        {
+            name: "Wisp Evadov",
+            position: "Заместитель начальника отдела IAD",
+            email: "sidorov@lspd.gov",
+            phone: "+1 (555) 444-5566",
+            quote: "Патруль — лицо полиции",
+            age: 35,
+            yearsInService: 10,
+            department: "Отдел IAD",
+            photo: sidorov,
+            level: 4,
+        },
+        {
+            name: "Emanuel Sinaloa",
+            position: "Заместитель начальника отдела IAD",
+            email: "sidorov@lspd.gov",
+            phone: "+1 (555) 444-5566",
+            quote: "Патруль — лицо полиции",
+            age: 35,
+            yearsInService: 10,
+            department: "Отдел IAD",
+            photo: sidorov,
+            level: 4,
+        },
+
+
+        {
+            name: "Amir Quinteired",
+            position: "Начальник отдела SWAT",
+            email: "sidorov@lspd.gov",
+            phone: "+1 (555) 444-5566",
+            quote: "Патруль — лицо полиции",
+            age: 35,
+            yearsInService: 10,
+            department: "Отдел SWAT",
+            photo: sidorov,
+            level: 3,
+        },
+        {
+            name: "Den Iska",
+            position: "Заместитель начальника отдела SWAT",
+            email: "sidorov@lspd.gov",
+            phone: "+1 (555) 444-5566",
+            quote: "Патруль — лицо полиции",
+            age: 35,
+            yearsInService: 10,
+            department: "Отдел SWAT",
             photo: sidorov,
             level: 3,
         },
@@ -184,30 +233,59 @@ export default function LspdGuide() {
             quote: "Патруль — лицо полиции",
             age: 35,
             yearsInService: 10,
+            department: "Отдел SWAT",
             photo: sidorov,
             level: 3,
         },
         {
-            name: "Eric Hametov",
-            position: "Заместитель начальника отдела PAI",
+            name: "Bushido Elusive",
+            position: "Заместитель начальника отдела SWAT",
+            email: "marensov@lspd.gov",
+            phone: "+1 (555) 444-5566",
+            quote: "Патруль — лицо полиции",
+            age: 35,
+            yearsInService: 10,
+            department: "Отдел SWAT",
+            photo: sidorov,
+            level: 3,
+        },
+
+
+        {
+            name: "Hamster Hells",
+            position: "Начальник отдела CPD",
             email: "sidorov@lspd.gov",
             phone: "+1 (555) 444-5566",
             quote: "Патруль — лицо полиции",
             age: 35,
             yearsInService: 10,
+            department: "Отдел CPD",
             photo: sidorov,
-            level: 3,
+            level: 5,
         },
         {
-            name: "Padre Arasaka",
-            position: "Заместитель начальника отдела PAI",
+            name: "Quiorra Feez",
+            position: "Заместитель начальника отдела CPD",
             email: "sidorov@lspd.gov",
             phone: "+1 (555) 444-5566",
             quote: "Патруль — лицо полиции",
             age: 35,
             yearsInService: 10,
+            department: "Отдел CPD",
             photo: sidorov,
-            level: 3,
+            level: 5,
+        },
+        {
+            name: "Trofim Alonso",
+            position: "Заместитель начальника отдела CPD",
+            email: "sidorov@lspd.gov",
+            phone: "+1 (555) 444-5566",
+            quote: "Патруль — лицо полиции",
+            age: 35,
+            yearsInService: 10,
+            department: "Отдел CPD",
+            photo: sidorov,
+            level: 5,
         },
         {
             name: "Roy Dixon",
@@ -217,80 +295,53 @@ export default function LspdGuide() {
             quote: "Патруль — лицо полиции",
             age: 35,
             yearsInService: 10,
+            department: "Отдел CPD",
             photo: sidorov,
-            level: 3,
+            level: 5,
         },
-        {
-            name: "Revise McLovinez",
-            position: "Заместитель начальника отдела DB",
-            email: "sidorov@lspd.gov",
-            phone: "+1 (555) 444-5566",
-            quote: "Патруль — лицо полиции",
-            age: 35,
-            yearsInService: 10,
-            photo: sidorov,
-            level: 3,
-        },
-        {
-            name: "Wisp Evadov",
-            position: "Заместитель начальника отдела IAD",
-            email: "sidorov@lspd.gov",
-            phone: "+1 (555) 444-5566",
-            quote: "Патруль — лицо полиции",
-            age: 35,
-            yearsInService: 10,
-            photo: sidorov,
-            level: 3,
-        },
-        {
-            name: "Emanuel Sinaloa",
-            position: "Заместитель начальника отдела IAD",
-            email: "sidorov@lspd.gov",
-            phone: "+1 (555) 444-5566",
-            quote: "Патруль — лицо полиции",
-            age: 35,
-            yearsInService: 10,
-            photo: sidorov,
-            level: 3,
-        },
+
+
     ];
 
     const grouped = lspdLeaders.reduce((acc, leader) => {
-        if (!acc[leader.level]) acc[leader.level] = [];
-        acc[leader.level].push(leader);
+        if (!acc[leader.department]) acc[leader.department] = [];
+        acc[leader.department].push(leader);
         return acc;
     }, {});
 
-    const sortedLevels = Object.keys(grouped).sort((a, b) => a - b);
-
-    const chunkArray = (array, chunkSize) => {
-        const chunks = [];
-        for (let i = 0; i < array.length; i += chunkSize) {
-            chunks.push(array.slice(i, i + chunkSize));
-        }
-        return chunks;
-    };
+    const departments = Object.entries(grouped);
 
     return (
         <div>
             <p className="title">Руководство LSPD</p>
-            {sortedLevels.map((level, idx) => {
-                const chunks = chunkArray(grouped[level], 7);
+
+            {departments.map(([dept, leaders], idx) => {
+                const [chief, ...deputies] = leaders;
+
                 return (
-                    <div key={level}>
-                        {chunks.map((chunk, chunkIdx) => (
-                            <div key={`${level}-${chunkIdx}`} className="leaders-row">
-                                {chunk.map((leader, i) => (
-                                    <LeaderCard
-                                        key={i}
-                                        {...leader}
-                                        onClick={() => setSelectedLeader(leader)}
-                                    />
-                                ))}
-                            </div>
-                        ))}
-                        {idx < sortedLevels.length - 1 && (
-                            <img src={separatorImg} alt="separator" className="leaders-separator-img" />
+                    <div key={dept} className="department-block">
+                        <h2 className="department-title">{dept}</h2>
+
+                        <div className="leaders-row">
+                            <LeaderCard {...chief} onClick={() => setSelectedLeader(chief)}/>
+
+                            {deputies.length > 0 && <div className="deputies-separator"/>}
+
+                            {deputies.map((leader, i) => (
+                                <LeaderCard
+                                    key={i}
+                                    {...leader}
+                                    onClick={() => setSelectedLeader(leader)}
+                                />
+                            ))}
+                        </div>
+
+                        {idx < departments.length - 1 && (
+                            <img
+                                src={separatorImg}
+                                alt="separator"
+                                className="leaders-separator-img"
+                            />
                         )}
                     </div>
                 );

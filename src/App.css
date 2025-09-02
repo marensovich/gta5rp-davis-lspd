@@ -30,6 +30,28 @@ body {
     height: auto;
 }
 
+.department-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 20px 0 10px;
+    text-align: center;
+    color: #e5e7eb;
+}
+
+.leaders-row {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.deputies-separator {
+    width: 2px;
+    height: 100px;
+    background-color: #444;
+    margin: 0 15px;
+}
+
+
 
 body.loaded {
     animation: fadeInBackground 1s ease forwards;

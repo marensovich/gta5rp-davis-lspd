@@ -1,6 +1,6 @@
 import React from "react";
 import centerImg from "../img/icon.png";
-import rightImg from "../img/icon.png";
+import rightImg from "../img/gta5rp-logo1.png";
 import "../styles/header.css";
 
 export default function Header() {
