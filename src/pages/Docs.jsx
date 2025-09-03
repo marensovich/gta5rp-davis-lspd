@@ -1,3 +1,5 @@
 export default function Docs() {
-    return <p>Официальные акты LSPD.</p>;
+    return <p className="wait">
+        Тут скоро появится что-то<span className="dots"></span>
+    </p>
 }

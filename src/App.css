@@ -23,6 +23,27 @@ body {
     transition: background 1s ease;
 }
 
+.wait {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 20px 0 10px;
+    text-align: center;
+    color: #e5e7eb;
+}
+
+.dots::after {
+    content: "";
+    animation: dots 1.5s steps(3, end) infinite;
+}
+
+@keyframes dots {
+    0%   { content: ""; }
+    33%  { content: "."; }
+    66%  { content: ".."; }
+    100% { content: "..."; }
+}
+
+
 .leaders-separator-img {
     display: block;
     margin: 30px auto;

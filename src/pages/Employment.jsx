@@ -1,3 +1,5 @@
 export default function Employment() {
-    return <p>Трудоустройство в LSPD.</p>;
+    return <p className="wait">
+        Тут скоро появится что-то<span className="dots"></span>
+            </p>
 }
