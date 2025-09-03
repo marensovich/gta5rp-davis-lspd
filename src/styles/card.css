@@ -66,8 +66,23 @@
 }
 
 .modal-text {
+    color: #8a89b0;
     text-align: left;
     flex: 1;
+}
+.modal-textName {
+    color: #c5c4ff;
+    text-align: center;
+    flex: 1;
+}
+.modal-value {
+    color: #c5c4ff;
+    text-align: center;
+    flex: 1;
+}
+
+.button {
+    text-align: center;
 }
 
 .modal-text h2 {
@@ -77,6 +92,13 @@
 
 .modal-text p {
     margin: 5px 0;
+}
+
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
 }
 
 .modal-overlay {
@@ -93,10 +115,10 @@
 }
 
 .modal {
-    background: white;
+    background: #1f2937;
     border-radius: 12px;
-    padding: 20px;
-    width: 600px;
+    padding: 10px;
+    width: 400px;
     max-width: 90%;
     box-shadow: 0 4px 14px rgba(0,0,0,0.3);
     transition: transform 0.3s ease, opacity 0.3s ease;
@@ -130,6 +152,9 @@
     margin-top: 15px;
     padding: 8px 16px;
     background: #2563eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: white;
     border: none;
     border-radius: 8px;
@@ -149,29 +174,26 @@
     margin: 20px 0;
 }
 
-/* Для адаптивности на маленьких экранах */
-@media (max-width: 1200px) {
-    .leaders-row {
-        grid-template-columns: repeat(4, 1fr); /* 4 карточки на строку */
-    }
-}
-
 @media (max-width: 900px) {
     .leaders-row {
-        grid-template-columns: repeat(3, 1fr); /* 3 карточки на строку */
+        grid-template-columns: repeat(3, 1fr);
     }
+    .leader-card { width: 45%; }
+    .department-title { font-size: 1.5rem; }
+    .modal { max-width: 400px; }
+    .modal-photo { width: 120px; height: 120px; }
 }
 
 @media (max-width: 600px) {
-    .leaders-row {
-        grid-template-columns: repeat(2, 1fr); /* 2 карточки на строку */
-    }
+    .leader-card { width: 80%; }
+    .leaders-row { flex-direction: column; align-items: center; gap: 10px; grid-template-columns: repeat(2, 1fr); }
+    .department-title { font-size: 1.3rem; }
 }
 
 @media (max-width: 400px) {
-    .leaders-row {
-        grid-template-columns: 1fr; /* 1 карточка на строку */
-    }
+    .leader-card { width: 100%; grid-template-columns: 1fr; }
+    .modal { width: 95%; }
+    .modal-photo { width: 100px; height: 100px; }
 }
 
 

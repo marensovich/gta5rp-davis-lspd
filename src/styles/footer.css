@@ -9,6 +9,7 @@
     padding: 10px 20px;
     font-size: 0.9rem;
     z-index: 999;
+    flex-wrap: wrap;
     box-shadow: 0 -2px 8px rgba(0,0,0,0.2);
     transform: translateY(100%);
     opacity: 0;

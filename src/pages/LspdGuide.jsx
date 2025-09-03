@@ -357,14 +357,14 @@ export default function LspdGuide() {
                                 className="modal-photo"
                             />
                             <div className="modal-text">
-                                <h2>{selectedLeader.name}</h2>
-                                <p><b>Должность:</b> {selectedLeader.position}</p>
-                                <p><b>Email:</b> {selectedLeader.email}</p>
-                                <p><b>Телефон:</b> {selectedLeader.phone}</p>
-                                <p><b>Цитата:</b> «{selectedLeader.quote}»</p>
-                                <p><b>Возраст:</b> {selectedLeader.age}</p>
-                                <p><b>Стаж:</b> {selectedLeader.yearsInService} лет</p>
-                                <button onClick={() => setSelectedLeader(null)}>Закрыть</button>
+                                <h2 className="modal-textName"><b>{selectedLeader.name}</b></h2>
+                                <p className="modal-text"><b>Должность:</b> <text className="modal-value">{selectedLeader.position}</text></p>
+                                <p className="modal-text"><b>Email:</b> <text className="modal-value">{selectedLeader.email}</text></p>
+                                <p className="modal-text"><b>Телефон:</b> <text className="modal-value">{selectedLeader.phone}</text></p>
+                                <p className="modal-text"><b>Цитата:</b> <text className="modal-value">«{selectedLeader.quote}»</text></p>
+                                <p className="modal-text"><b>Возраст:</b> <text className="modal-value">{selectedLeader.age}</text></p>
+                                <p className="modal-text"><b>Стаж:</b> <text className="modal-value">{selectedLeader.yearsInService} лет</text></p>
+                                <button className="button" onClick={() => setSelectedLeader(null)}>Закрыть</button>
                             </div>
                         </div>
                     </div>
