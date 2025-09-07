@@ -1,0 +1,58 @@
+.recovery-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 24px;
+    background-color: #fefefe;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #2d2d2d;
+    line-height: 1.7;
+}
+
+.recovery-title {
+    font-size: 26px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #ff7b2e;
+}
+
+.recovery-paragraph {
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.recovery-list {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.recovery-list li {
+    margin-bottom: 10px;
+    font-size: 15.5px;
+}
+
+.recovery-link a {
+    color: #2980b9;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.recovery-link a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    .recovery-container {
+        padding: 16px;
+    }
+
+    .recovery-title {
+        font-size: 22px;
+    }
+
+    .recovery-paragraph,
+    .recovery-list li {
+        font-size: 15px;
+    }
+}

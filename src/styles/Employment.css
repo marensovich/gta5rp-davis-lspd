@@ -1,0 +1,58 @@
+.employment-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 24px;
+    background-color: #fefefe;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #2d2d2d;
+    line-height: 1.7;
+}
+
+.employment-title {
+    font-size: 26px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #ff7b2e;
+}
+
+.employment-paragraph {
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.employment-list {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.employment-list li {
+    margin-bottom: 10px;
+    font-size: 15.5px;
+}
+
+.employment-link a {
+    color: #2980b9;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.employment-link a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    .employment-container {
+        padding: 16px;
+    }
+
+    .employment-title {
+        font-size: 22px;
+    }
+
+    .employment-paragraph,
+    .employment-list li {
+        font-size: 15px;
+    }
+}
