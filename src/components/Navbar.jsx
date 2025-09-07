@@ -16,8 +16,8 @@ export default function Navbar() {
             <NavLink to="/docs" className="nav-link">
                 Акты LSPD
             </NavLink>
-            <NavLink to="/events" className="nav-link">
-                Мероприятия
+            <NavLink to="/project" className="nav-link">
+                Информация
             </NavLink>
         </nav>
     );

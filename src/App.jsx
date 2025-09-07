@@ -5,7 +5,7 @@ import Navbar from "./components/Navbar";
 import LspdGuide from "./pages/LspdGuide";
 import Employment from "./pages/Employment.jsx";
 import Docs from "./pages/Docs.jsx";
-import Events from "./pages/Events.jsx";
+import ProjectInfo from "./pages/ProjectInfo.jsx";
 import Footer from "./components/Footer.jsx";
 import Header from "./components/Header.jsx";
 import Recovery from "./pages/Recovery.jsx";
@@ -22,7 +22,7 @@ export default function App() {
                     <Route path="/" element={<LspdGuide />} />
                     <Route path="/employment" element={<Employment />} />
                     <Route path="/docs" element={<Docs />} />
-                    <Route path="/events" element={<Events />} />
+                    <Route path="/project" element={<ProjectInfo />} />
                     <Route path="/recovery" element={<Recovery />} />
                 </Routes>
 
