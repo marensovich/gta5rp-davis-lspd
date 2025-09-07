@@ -4,19 +4,19 @@ import "../styles/navbar.css";
 export default function Navbar() {
     return (
         <nav className="navbar">
-            <NavLink to="/" className="nav-link">
+            <NavLink to="/lspd/guide" className="nav-link">
                 Руководство LSPD
             </NavLink>
-            <NavLink to="/employment" className="nav-link">
+            <NavLink to="/lspd/employment" className="nav-link">
                 Трудоустройство
             </NavLink>
-            <NavLink to="/recovery" className="nav-link">
+            <NavLink to="/lspd/recovery" className="nav-link">
                 Восстановление
             </NavLink>
-            <NavLink to="/docs" className="nav-link">
+            <NavLink to="/lspd/docs" className="nav-link">
                 Акты LSPD
             </NavLink>
-            <NavLink to="/project" className="nav-link">
+            <NavLink to="/lspd/project" className="nav-link">
                 Информация
             </NavLink>
         </nav>

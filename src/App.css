@@ -1,103 +1,72 @@
-body {
-    margin: 0;
-    padding: 0;
+.home-container {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
     min-height: 100vh;
-    background: #1f2937;
-    position: relative;
-    overflow-x: hidden;
-}
-
-.body-background {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image:
-            linear-gradient(to bottom, rgba(31,41,55,0.4), #1f2937),
-            url('./img/bg.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    z-index: -1;
-    transition: background 1s ease;
-}
-
-.wait {
-    font-size: 22px;
-    font-weight: bold;
-    margin: 20px 0 10px;
-    text-align: center;
-    color: #e5e7eb;
-}
-
-.dots::after {
-    content: "";
-    animation: dots 1.5s steps(3, end) infinite;
-}
-
-@keyframes dots {
-    0%   { content: ""; }
-    33%  { content: "."; }
-    66%  { content: ".."; }
-    100% { content: "..."; }
-}
-
-
-.leaders-separator-img {
-    display: block;
-    margin: 30px auto;
-    max-width: 100%;
-    height: auto;
-}
-
-.department-title {
-    font-size: 22px;
-    font-weight: bold;
-    margin: 20px 0 10px;
-    text-align: center;
-    color: #e5e7eb;
-}
-
-.leaders-row {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    gap: 20px;
 }
 
-.deputies-separator {
-    width: 2px;
-    height: 100px;
-    background-color: #444;
-    margin: 0 15px;
+.home-title {
+    font-size: 28px;
+    margin-bottom: 32px;
+    color: #333;
 }
 
-
-
-body.loaded {
-    animation: fadeInBackground 1s ease forwards;
+.faction-cards {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-@keyframes fadeInBackground {
-    0% {
-        opacity: 0;
-        background-color: #1f2937;
-    }
-    100% {
-        opacity: 1;
-        background-color: #1f2937;
-    }
+.faction-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+    width: 180px;
+    height: 220px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-body::before {
-    content: "";
-    position: fixed;
-    top: 0;
-    left: 0;
+.faction-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+}
+
+.faction-logo {
     width: 100%;
-    height: 100%;
-    background: rgba(0,0,0,0.25);
-    pointer-events: none;
-    z-index: 0;
-    transition: background 0.5s ease, opacity 1s ease;
+    height: auto;
+    max-height: 120px;
+    object-fit: contain;
+    margin-bottom: 16px;
+}
+
+.faction-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+/* 📱 Mobile */
+@media (max-width: 600px) {
+    .faction-card {
+        width: 140px;
+        height: 180px;
+        padding: 16px;
+    }
+
+    .faction-name {
+        font-size: 16px;
+    }
+
+    .home-title {
+        font-size: 24px;
+    }
 }
